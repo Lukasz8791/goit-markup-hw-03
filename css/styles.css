@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: auto;
+  padding: auto;
 }
 body {
   font-size: 16px;
@@ -61,9 +61,8 @@ header {
   align-items: center;
   flex-shrink: 0;
 
-  margin-left: 156px;
-  margin-right: 76px;
-  padding: 0px;
+  padding-left: 156px;
+  padding-right: 76px;
 }
 .logo-color {
   color: var(--brand-color);
@@ -76,11 +75,17 @@ header {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  color: var(--navy);
+}
+.menu:hover {
+  color: var(--brand-color);
+}
+.menu:focus {
+  color: var(--brand-color);
 }
 .menu-header {
   padding-top: 24px;
   padding-bottom: 24px;
-  padding: 0px;
 }
 .contact {
   display: flex;
@@ -88,7 +93,6 @@ header {
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
-  padding-bottom: 0px;
 }
 .adress {
   font-weight: 400;
@@ -97,7 +101,6 @@ header {
   color: #434455;
   text-decoration: none;
   letter-spacing: 0.32px;
-  padding: 0px;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -115,9 +118,10 @@ header {
   color: white;
   text-align: center;
   letter-spacing: 1.12px;
-  margin-top: 68px;
+  padding-top: 68px;
   padding-left: 472px;
   padding-right: 472px;
+  padding-bottom: 40px;
 }
 .black-box {
   width: 1440px;
@@ -134,7 +138,6 @@ header {
   width: 169px;
   height: 56px;
   border-radius: 4px;
-  padding: 16px, 32px;
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--brand-color);
@@ -142,7 +145,6 @@ header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   outline: none;
-  margin-right: 635px;
   margin-left: 636px;
 }
 .button-order:hover {
@@ -192,6 +194,7 @@ header {
   line-height: 1.11;
   margin-left: 559px;
   width: 323px;
+  padding-bottom: 72px;
 }
 .headline2 {
   color: var(--navy);
@@ -203,24 +206,26 @@ header {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-top: 240px;
   margin-left: 639px;
   width: 162px;
+  padding-bottom: 72px;
 }
 .job-list {
   display: inline-flex;
-  margin-top: 72px;
   gap: 24px;
   margin-left: 156px;
   border: 1px var(--cornflower);
+  padding-bottom: 120px;
 }
 .team {
   display: inline-flex;
   text-align: center;
   gap: 24px;
-  margin-left: 172px;
-  margin-right: 156px;
-  margin-bottom: 120px;
+  margin-left: 156px;
+}
+.team h3 {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .card tittle {
   font-weight: 500;
@@ -229,8 +234,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  padding-bottom: 32px;
   margin-left: 172px;
 }
 
@@ -241,41 +245,43 @@ header {
   color: #434455;
   text-align: center;
   letter-spacing: 0.32px;
-  margin-bottom: 32px;
   margin-left: 172px;
+}
+.team p {
+  padding-bottom: 32px;
 }
 .footer-box {
   background: var(--navy);
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
-  .logo-footer {
-    font-family: "Raleway";
-    font-weight: 800;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.16;
-    text-decoration: none;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    color: #f4f4fd;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-    width: 115px;
-    margin-top: 100px;
-    margin-left: 156px;
-    padding: 0px;
-  }
 }
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.16;
+  text-decoration: none;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 115px;
+  padding-top: 100px;
+  padding-left: 156px;
+}
+
 .footer-text {
   font-size: 16px;
   color: var(--clout);
   letter-spacing: 0.32px;
   line-height: 1.5;
-  margin-bottom: 17.5px;
+  padding-bottom: 16px;
   margin-left: 156px;
   width: 264px;
 }
@@ -287,13 +293,13 @@ header {
   height: 48px;
   padding-top: 96px;
   padding-left: 427px;
+  padding-bottom: 72px;
 }
 .portfolio-buttons {
   font-weight: 500;
   height: 48px;
   border-radius: 4px;
   border: 1px solid var(--cornflower);
-  padding: 12px, 24px;
   background-color: #f4f4fd;
   color: var(--brand-color);
   font-family: "Roboto";
@@ -302,7 +308,6 @@ header {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  padding: 12px 24px;
   text-align: center;
 }
 
@@ -326,43 +331,51 @@ header {
 .btn-all {
   width: 69px;
 }
+
 .btn-website {
   width: 116px;
 }
+
 .btn-app {
   width: 78px;
 }
+
 .btn-design {
   width: 101px;
 }
+
 .btn-marketing {
   width: 126px;
 }
-.card-set{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 48px;
-    padding: 0;
-    list-style: none;
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  list-style: none;
+  padding-left: 156px;
+
 }
-.item{
-    flex-basis: calc((100% - 48px) / 3);
-    border-bottom: 1px solid var(--cornflower);
+.item {
+  flex-basis: calc((100% - 48px) / 3);
+  border-bottom: 1px solid var(--cornflower);
 }
-
-
-
+.item img {
+  padding-bottom: 32px;
+}
+.item figcaption {
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid var(--cornflower);
+}
 .portfolio-tittle {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   color: #2e2f42;
-  height: 24px;
-  padding-top: 32px;
-  padding-bottom: 16px;
   letter-spacing: 0.4px;
+  padding-bottom: 8px;
 }
 .portfolio-description {
   font-family: "Roboto";
@@ -370,6 +383,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 ul {
