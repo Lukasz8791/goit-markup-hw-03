@@ -2,6 +2,7 @@
   margin: auto;
   padding: auto;
 }
+
 body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -9,18 +10,21 @@ body {
   color: #2e2f42;
   width: 1440px;
 }
+
 :root {
   --brand-color: #4d5ae5;
   --cornflower: #e7e9fc;
   --navy: #2e2f42;
   --clout: #f4f4fd;
 }
+
 .container {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -30,21 +34,24 @@ header {
   width: 1440px;
   flex-shrink: 0;
   flex-direction: row;
+  border-bottom: 1px solid var(--cornflower);
 }
+
 .header-wrapper {
   display: flex;
 }
 
-.header-wrapper > nav {
+.header-wrapper>nav {
   display: flex;
 }
 
-.header-wrapper > nav > menu {
+.header-wrapper>nav>menu {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
   list-style-type: none;
 }
+
 .logo {
   font-family: "Raleway";
   font-weight: 800;
@@ -63,6 +70,7 @@ header {
   padding-left: 156px;
   padding-right: 76px;
 }
+
 .logo-color {
   color: var(--brand-color);
   letter-spacing: 0.54px;
@@ -76,16 +84,20 @@ header {
   text-decoration: none;
   color: var(--navy);
 }
+
 .menu:hover {
   color: var(--brand-color);
 }
+
 .menu:focus {
   color: var(--brand-color);
 }
+
 .menu-header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .contact {
   display: flex;
   margin-left: 332px;
@@ -93,6 +105,7 @@ header {
   padding-bottom: 24px;
   gap: 40px;
 }
+
 .adress {
   font-weight: 400;
   font-size: 16px;
@@ -103,9 +116,11 @@ header {
   text-decoration: none;
   white-space: nowrap;
 }
+
 .adress:hover {
   color: var(--brand-color);
 }
+
 .adress:focus {
   color: var(--brand-color);
 }
@@ -122,12 +137,14 @@ header {
   padding-right: 472px;
   padding-bottom: 40px;
 }
+
 .black-box {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
   background: var(--navy);
 }
+
 .button-order {
   font-family: "Roboto";
   font-weight: 500;
@@ -146,16 +163,19 @@ header {
   outline: none;
   margin-left: 636px;
 }
+
 .button-order:hover {
   background-color: var(--brand-color);
   color: #ffffff;
   outline: none;
 }
+
 .button-order:focus {
   background-color: var(--brand-color);
   color: #ffffff;
   outline: none;
 }
+
 .list-advantages {
   display: inline-flex;
   text-align: left;
@@ -195,6 +215,7 @@ header {
   width: 323px;
   padding-bottom: 72px;
 }
+
 .headline2 {
   color: var(--navy);
   text-align: center;
@@ -209,6 +230,7 @@ header {
   width: 162px;
   padding-bottom: 72px;
 }
+
 .job-list {
   display: inline-flex;
   gap: 24px;
@@ -216,16 +238,19 @@ header {
   border: 1px var(--cornflower);
   padding-bottom: 120px;
 }
+
 .team {
   display: inline-flex;
   text-align: center;
   gap: 24px;
   margin-left: 156px;
 }
+
 .team h3 {
   padding-top: 32px;
   padding-bottom: 8px;
 }
+
 .card tittle {
   font-weight: 500;
   color: var(--navy);
@@ -246,15 +271,18 @@ header {
   letter-spacing: 0.32px;
   margin-left: 172px;
 }
+
 .team p {
   padding-bottom: 32px;
 }
+
 .footer-box {
   background: var(--navy);
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
 }
+
 .logo-footer {
   font-family: "Raleway";
   font-weight: 800;
@@ -284,6 +312,7 @@ header {
   margin-left: 156px;
   width: 264px;
 }
+
 .button-list {
   display: inline-flex;
   align-items: flex-start;
@@ -294,6 +323,7 @@ header {
   padding-left: 427px;
   padding-bottom: 72px;
 }
+
 .portfolio-buttons {
   font-weight: 500;
   height: 48px;
@@ -327,6 +357,7 @@ header {
   box-shadow: 0px 2px 1px 0px #00000014;
   box-shadow: 0px 3px 1px 0px #0000001a;
 }
+
 .btn-all {
   width: 69px;
 }
@@ -346,6 +377,7 @@ header {
 .btn-marketing {
   width: 126px;
 }
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -355,10 +387,12 @@ header {
   padding-left: 156px;
   padding-bottom: 120px;
 }
+
 .item {
   flex-basis: calc((100% - 48px) / 3);
   border-bottom: 1px solid var(--cornflower);
 }
+
 .item img {
   padding-bottom: 32px;
   width: 300px;
@@ -369,6 +403,7 @@ header {
   padding-right: 16px;
   border-bottom: 1px solid var(--cornflower);
 }
+
 .portfolio-tittle {
   font-family: "Roboto";
   font-weight: 500;
@@ -378,6 +413,7 @@ header {
   letter-spacing: 0.4px;
   padding-bottom: 8px;
 }
+
 .portfolio-description {
   font-family: "Roboto";
   font-size: 16px;
@@ -390,6 +426,6 @@ header {
 ul {
   list-style-type: none;
 }
-.page-header {
-  border-bottom: 1px solid var(--cornflower);
-}
+
+
+
