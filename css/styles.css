@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   color: #2e2f42;
   background: white;
-  }
+}
 
 :root {
   --brand-color: #4d5ae5;
@@ -18,11 +18,11 @@ body {
   --clout: #f4f4fd;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 .section {
-  padding:120px 0;
+  padding: 120px 0;
 }
 
 header {
@@ -39,7 +39,7 @@ header {
   padding: 0 15px;
 }
 
-.header-container{
+.header-container {
   display: flex;
   width: 100%;
   max-width: 1158px;
@@ -47,7 +47,7 @@ header {
   padding: 0 15px;
 }
 
-.top-nav{
+.top-nav {
   display: flex;
   align-items: center;
   margin-left: 0;
@@ -58,17 +58,17 @@ header {
   color: #2e2f42;
   font-family: "Raleway";
   font-weight: 800;
-  font-style: normal;  
+  font-style: normal;
   line-height: 1.16;
   text-decoration: none;
   letter-spacing: 0.54px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   letter-spacing: 0.54px;
   display: inline-block;
   flex-shrink: 0;
 }
 
-.logo-top{
+.logo-top {
   margin-right: 76px;
 }
 
@@ -81,14 +81,14 @@ header {
   gap: 40px;
 }
 
-.menu{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-    color: var(--navy);
-    letter-spacing: 0,32px;
-    padding: 24px 0;
+.menu {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--navy);
+  letter-spacing: 0, 32px;
+  padding: 24px 0;
 }
 
 .menu:hover {
@@ -127,7 +127,7 @@ header {
   flex-shrink: 0;
   background: var(--navy);
 }
-.black-box-container{
+.black-box-container {
   flex-direction: column;
   align-items: center;
 }
@@ -181,7 +181,7 @@ header {
   gap: 24px;
 }
 
-.advantages h3{
+.advantages h3 {
   font-weight: 500;
   color: var(--navy);
   font-size: 20px;
@@ -191,7 +191,7 @@ header {
   margin-bottom: 8px;
 }
 
-.advantages-description p{
+.advantages-description p {
   font-size: 16px;
   color: #434455;
   font-style: normal;
@@ -199,15 +199,15 @@ header {
   letter-spacing: 0.32px;
 }
 
-.advantages-columns li{
-  width: calc((100%-72px)/4);
+.advantages-columns li {
+  width: calc((100%-72px) / 4);
 }
 
-.section-bottom{
+.section-bottom {
   padding-bottom: 120px;
 }
 
-.picture-columns{
+.picture-columns {
   flex-direction: column;
 }
 
@@ -227,11 +227,11 @@ header {
   border: 1px var(--cornflower);
 }
 
-.job-list li{
-  width: calc((100% - 48px) / 3)
+.job-list li {
+  width: calc((100% - 48px) / 3);
 }
 
-.cloud-color{
+.cloud-color {
   background: var(--clout);
 }
 
@@ -241,21 +241,20 @@ header {
   gap: 24px;
 }
 
-.team-columns{
-  width: calc((100%-72px)/4)
+.team-columns {
+  width: calc((100%-72px) / 4);
 }
 
-.team-columns p{ 
+.team-columns p {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
 }
 
-.team-heading{
+.team-heading {
   font-weight: 500;
   color: var(--navy);
   font-size: 20px;
@@ -263,11 +262,10 @@ header {
   letter-spacing: 0.4px;
   line-height: 1.5;
   margin-bottom: 8px;
-
 }
 
-.team-heading h3{
-  color: var(--navyblue, #2E2F42);
+.team-heading h3 {
+  color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -276,22 +274,23 @@ header {
   letter-spacing: 0.4px;
 }
 
-.team-items{
+.team-items {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  
 }
 
-.team-items li{
+.team-items li {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   border-radius: 0px 0px 4px 4px;
-  background: var(--white, #FFF);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-x{
+.team-x {
   padding: 32px 16px;
   text-align: center;
 }
@@ -303,7 +302,7 @@ header {
   padding: 100px 0;
 }
 
-.footer-column{
+.footer-column {
   flex-direction: column;
 }
 
@@ -320,12 +319,12 @@ header {
   width: 264px;
 }
 
-.portfolio-container{
+.portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
@@ -383,7 +382,7 @@ header {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.card-caption{
+.card-caption {
   padding: 32px 16px;
 }
 
@@ -404,7 +403,3 @@ header {
   letter-spacing: 0.32px;
   color: #434455;
 }
-
-
-
-
