@@ -17,53 +17,65 @@
 
 <body>
   <header class="header">
-    <div class="container header-wrapper">
-      <nav>
-        <a class="logo" href=""><span class="logo-color">WEB</span>STUDIO</a>
-        <menu class="menu-header">
-          <li><a class="menu">Studio</a></li>
-          <li><a class="menu" href="portfolio.html">Portfolio</a></li>
-          <li><a class="menu">Contracts</a></li>
-        </menu>
+    <div class="header-container container">
+      
+      <nav class="container top-nav">
+        <a class="logo logo-top" href=""><span class="logo-color">WEB</span>STUDIO</a>
+        <ul class="menu-nav">
+          <li><a href="index.html" class="menu" >Studio</a></li>
+          <li><a href="portfolio.html" class="menu">Portfolio</a></li>
+          <li><a href="#" class="menu">Contracts</a></li>
+        </ul>
       </nav>
-      <div class="contact">
-        <a class="adress" href="mailto:info@devstudio.com">info@devstudio.com</a>
 
-        <a class="adress" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-      </div>
+      <address>
+        <ul class="contact">
+        <li>
+        <a href="mailto:info@devstudio.com" class="adress">info@devstudio.com</a>
+        </li>
+        <li>
+        <a href="tel:+11(000)111-11-11" class="adress">+11 (000) 111-11-11</a>
+        </li>
+        </ul>
+      </address>
     </div>
   </header>
-  <main>
-    <div class="container">
-      <section class="black-box section">
-        <h1 class="header1">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-order">Order Service</button>
-      </section>
 
-      <section class="section">
-        <ul class="list-advantages">
-          <li>
+  <main>
+    <section class="section black-box">
+    <div class="container black-box-container">
+        <h1 class="header1">
+          Effective Solutions for Your Business
+        </h1>
+        <button type="button" class="button-order">Order Service</button>
+    </div>
+    </section>
+
+    <section class="section">
+    <div class="container">
+        <ul class="list-advantages advantages advantages-description advantages-columns">
+          <li class="advantages-columns">
             <h3 class="advantages">Strategy</h3>
             <p class="advantages-description">
               Our goal is to identify the business problem to walk away with
               the perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="advantages-columns">
             <h3 class="advantages">Punctuality</h3>
             <p class="advantages-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="advantages-columns">
             <h3 class="advantages">Diligence</h3>
             <p class="advantages-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="advantages-columns">
             <h3 class="advantages">Technologies</h3>
             <p class="advantages-description">
               Design practice focused on digital experiences. We bring forth a
@@ -71,52 +83,66 @@
             </p>
           </li>
         </ul>
-      </section>
-      <div class="headline1">
-        <p>What Are We Doing</p>
       </div>
+      </section>
+
+      <section class="section-bottom">
+      <div class="container picture-columns">
+        <h2 class="headline1">What Are We Doing</h2>      
       <ul class="job-list">
-        <li>
+        <li class="job-list">
           <img src="images/offer-1.jpg" alt="numbers&graphs" width="360" height="300" />
         </li>
-        <li>
+        <li class="job-list">
           <img src="images/offer-2.jpg" alt="phones screens" width="360" height="300" />
         </li>
-        <li>
+        <li class="job-list">
           <img src="images/offer-3.jpg" alt="phone&notebook" width="360" height="300" />
         </li>
       </ul>
-      <section class="section">
-        <p class="headline2">Our Team</p>
-        <ul class="team">
-          <li>
+      </div>
+      </section>
+
+      <section class="section cloud-color">
+        <div class="container picture-columns">
+        <h2 class="headline1">Our Team</h2>
+        <ul class="team team-columns team-heading team-items">
+          <li class="team-heading">
             <img src="images/team-1.jpg" alt="A man with beard & shirt" width="264" height="260" />
-            <h3 class="card tittle">Mark Guerrero</h3>
-            <p class="card-descrption">Product Designer</p>
+            <div class="team-x">
+            <h3 class="team-heading">Mark Guerrero</h3>
+            <p class="team-columns">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-heading">
             <img src="images/team-2.jpg" alt="Young man is looking to the left" width="264" height="260" />
-            <h3 class="card tittle">Tom Ford</h3>
-            <p class="card-descrption">Frontend Developer</p>
+            <div class="team-x">
+            <h3 class="team-heading">Tom Ford</h3>
+            <p class="team-columns">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-heading">
             <img src="images/team-3.jpg" alt="Young woman with long straight hair" width="264" height="260" />
-            <h3 class="card tittle">Camila Garcia</h3>
-            <p class="card-descrption">Marketing</p>
+            <div class="team-x">
+            <h3 class="team-heading">Camila Garcia</h3>
+            <p class="team-columns">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="team-heading">
             <img src="images/team-4.jpg" alt="A man with beard & t-shirt" width="264" height="260" />
-            <h3 class="card tittle">Daniel Wilson</h3>
-            <p class="card-descrption">Ul Designer</p>
+            <div class="team-x">
+            <h3 class="team-heading">Daniel Wilson</h3>
+            <p class="team-columns">Ul Designer</p>
+            </div>
           </li>
         </ul>
+      </div>
       </section>
     </div>
   </main>
-  <footer>
-    <div class="container">
-      <div class="footer-box">
-        <a class="logo-footer" href=""><span class="logo-color">WEB</span>STUDIO</a>
+  <footer class="footer-box">
+    <div class="container footer-column">
+        <a class="logo logo-footer" href=""><span class="logo-color">WEB</span>STUDIO</a>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
