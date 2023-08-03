@@ -84,7 +84,7 @@ header {
   text-decoration: none;
   color: var(--navy);
   letter-spacing: 0, 32px;
-  padding: 24px 0;
+  margin: 24px 0;
 }
 
 .menu:hover {
@@ -156,6 +156,7 @@ header {
   letter-spacing: 0.64px;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 40px;
 }
 
 .button-order:hover {
@@ -193,7 +194,7 @@ header {
 }
 
 .advantages-columns li {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .section-bottom {
@@ -298,7 +299,6 @@ header {
 .logo-footer {
   color: var(--clout);
   margin-bottom: 16px;
-  padding: 100px 0 0 0;  
 }
 
 .footer-text {
@@ -307,7 +307,6 @@ header {
   letter-spacing: 0.32px;
   line-height: 1.5;
   width: 264px;
-  padding-bottom: 100px;
 }
 
 .portfolio-container {
@@ -364,7 +363,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 24px;
+  row-gap: 48px;
   column-gap: 24px;
 }
 
